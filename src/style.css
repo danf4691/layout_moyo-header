@@ -29,15 +29,12 @@ ul {
   text-decoration: none;
   color: black;
   line-height: 60px;
+  position: relative;
+  display: inline-block;
 }
 
 .opt_link:hover {
   color: #00acdc;
-}
-
-.options {
-  position: relative;
-  display: flex;
 }
 
 ul .options:not(:first-child) {
